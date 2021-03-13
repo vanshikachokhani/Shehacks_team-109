@@ -26,7 +26,8 @@ def predict():
     else:
         result="HDD may fail"
         
-    return render_template('index.html', prediction_text='Prediction: {}'.format(result))
+    # return render_template('index.html', prediction_text='Prediction: {}'.format(result))
+    return format(output)
 
 
 if __name__ == "__main__":
