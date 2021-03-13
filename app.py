@@ -24,7 +24,7 @@ def predict():
     if output==0:
         result="HDD will not fail"
     else:
-        result="HDD will fail"
+        result="HDD may fail"
         
     return render_template('index.html', prediction_text='Prediction: {}'.format(result))
 
