@@ -27,7 +27,7 @@ def predict():
         result="fail"
         
     # return render_template('index.html', prediction_text='Prediction: {}'.format(result))
-    return format(output)
+    return result
 
 
 if __name__ == "__main__":
